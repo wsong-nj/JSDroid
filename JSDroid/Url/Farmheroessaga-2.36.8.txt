@@ -1,0 +1,5 @@
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+I/url     (15578): http://adtrack.king.com/install?installId=MOIDfa9e0d5e31d84659bb32e75cee2614d9&installFlavourId=80026&clientTimestamp=1445414106000&androidId=f9af308f97cea3f6&model=T8830Pro&manufacturer=HUAWEI&osVersion=os_version_android_15&networkOperator=46000&osType=android
+--------- beginning of /dev/log/main
+--------- beginning of /dev/log/system

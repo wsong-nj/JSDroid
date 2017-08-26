@@ -1,0 +1,111 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1368064 bytes for object start array expansion
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (objectStartArray.cpp:102), pid=4164, tid=2360
+#
+# JRE version:  (7.0_67-b01) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.65-b04 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000222e800):  JavaThread "Unknown thread" [_thread_in_vm, id=2360, stack(0x00000000024f0000,0x00000000025f0000)]
+
+Stack: [0x00000000024f0000,0x00000000025f0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000222e800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=2360, stack(0x00000000024f0000,0x00000000025f0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x000000013f9f0000 - 0x000000013fa23000 	C:\Program Files\Java\jdk1.7.0_67\bin\javaw.exe
+0x00000000777d0000 - 0x000000007797c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00000000776b0000 - 0x00000000777cf000 	C:\Windows\system32\kernel32.dll
+0x000007fefda30000 - 0x000007fefda9c000 	C:\Windows\system32\KERNELBASE.dll
+0x000007feff210000 - 0x000007feff2eb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefdc50000 - 0x000007fefdcef000 	C:\Windows\system32\msvcrt.dll
+0x000007feff8c0000 - 0x000007feff8df000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007feff340000 - 0x000007feff46e000 	C:\Windows\system32\RPCRT4.dll
+0x00000000775b0000 - 0x00000000776aa000 	C:\Windows\system32\USER32.dll
+0x000007feff130000 - 0x000007feff197000 	C:\Windows\system32\GDI32.dll
+0x000007fefdb00000 - 0x000007fefdb0e000 	C:\Windows\system32\LPK.dll
+0x000007fefee50000 - 0x000007fefef1a000 	C:\Windows\system32\USP10.dll
+0x000007fefbf80000 - 0x000007fefc174000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_fa62ad231704eab7\COMCTL32.dll
+0x000007feffa60000 - 0x000007feffad1000 	C:\Windows\system32\SHLWAPI.dll
+0x000007feff890000 - 0x000007feff8be000 	C:\Windows\system32\IMM32.DLL
+0x000007fefeb60000 - 0x000007fefec69000 	C:\Windows\system32\MSCTF.dll
+0x0000000066090000 - 0x0000000066162000 	C:\Program Files\Java\jdk1.7.0_67\jre\bin\msvcr100.dll
+0x0000000074500000 - 0x0000000074cd2000 	C:\Program Files\Java\jdk1.7.0_67\jre\bin\server\jvm.dll
+0x000007fef04a0000 - 0x000007fef04a9000 	C:\Windows\system32\WSOCK32.dll
+0x000007feff1a0000 - 0x000007feff1ed000 	C:\Windows\system32\WS2_32.dll
+0x000007feff470000 - 0x000007feff478000 	C:\Windows\system32\NSI.dll
+0x000007fefb7c0000 - 0x000007fefb7fb000 	C:\Windows\system32\WINMM.dll
+0x0000000077990000 - 0x0000000077997000 	C:\Windows\system32\PSAPI.DLL
+0x0000000074410000 - 0x000000007441f000 	C:\Program Files\Java\jdk1.7.0_67\jre\bin\verify.dll
+0x00000000743e0000 - 0x0000000074408000 	C:\Program Files\Java\jdk1.7.0_67\jre\bin\java.dll
+0x00000000743c0000 - 0x00000000743d5000 	C:\Program Files\Java\jdk1.7.0_67\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Xms1000m -Dfile.encoding=GBK 
+java_command: tool.entryForOneApk.Entry E:\Top100Apks D:\adt-eclipse\sdk\platforms huang
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0_67
+CLASSPATH=.;C:\Program Files\Java\jdk1.7.0_67\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_67\lib\tools.jar;D:\adt-eclipse\sdk\platforms\android-17\android.jar;D:\adt-eclipse\sdk\tools\ant\apache-ant-1.9.6\lib;D:\adt-eclipse\sdk\tools\lib;
+PATH=C:/Program Files/Java/jdk1.7.0_67/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_67/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_67/bin/../jre/lib/amd64;.;D:\adt-eclipse\sdk\platform-tools;D:\adt-eclipse\sdk\tools\;C:\Program Files\Java\jdk1.7.0_67\bin;C:\Program Files\Java\jdk1.7.0_67\jre\bin;C:\Program Files (x86)\MATLAB71\bin\win32;;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;E:\CloudFoundry;MINGW_HOME\bin;D:\adt-eclipse\sdk\tools\ant\apache-ant-1.9.6\bin;F:\latex\miktex\bin;D:\adt-eclipse\eclipse;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 2007304k(51944k free), swap 5288352k(683456k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.65-b04) for windows-amd64 JRE (1.7.0_67-b01), built on Jul 25 2014 08:55:00 by "java_re" with unknown MS VC++:1600
+
+time: Sat Oct 10 08:52:10 2015
+elapsed time: 0 seconds
+
